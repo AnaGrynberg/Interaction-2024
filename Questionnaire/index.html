@@ -4,6 +4,15 @@
         <title> Questionnaire </title>
     </header>
 <body>
+
+<style>
+    h1{text-align: center;}
+    h1,p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: darkred;}
+body{background-color: lightpink; margin-left: 200px; margin-right: 200px;}
+button{background-color: pink;}
+</style>
+
     <h1> Questionnaire </h1>
 
 <or>
@@ -147,24 +156,63 @@ Alert
 </pre>
 
 <p> <strong> Question 14 </strong> </p>
-<p> on the code :) </p>
+<p> see code </p>
 <!-- This note will not be shown in the browser -->
 
 <p> <strong> Question 15 </strong> </p>
 
+<style>
+    .rock { color: red; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    .pop { color: blue; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    .hiphop { color: green; font-family: Arial, Helvetica, sans-serif;}
+    .jazz { color: purple; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    .electronic { color: orange; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+    .indie { color: brown;font-family: 'Times New Roman', Times, serif; }
+</style>
+</head>
+<body>
+
+<ul>
+    <li class="rock">Dire Staits</li>
+    <li class="pop">Taylor Swift</li>
+    <li class="hiphop">Drake</li>
+    <li class="jazz">Miles Davis</li>
+    <li class="electronic">Daft Punk</li>
+    <li class="indie">Arctic Monkeys</li>
+</ul>
 
 
 <p> <strong> Question 16 </strong> </p>
 
+<p> Block Elements: Starting on a new line and extending the full width of their parent container. They stack vertically, and elements before and after them are displayed on different lines.  <!--Examples: <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>. --> </p>
+<p> Inline Elements: Do not start on a new line and only take up as much width as necessary. They do not force a new line before or after themselves.  <!-- Examples: <span>, <a>, <strong>, <em>, <img>. --> </p>
+<p> Inline-Block Elements: Combine features of both block and inline elements. They generate a block-level box in the document flow but allow other elements to sit beside them on the same line.  <!-- Examples: <div style="display: inline-block;">, <span style="display: inline-block;">. --> </p>
+
+        
 <p> <strong> Question 17 </strong> </p>
+
+On question 15!
 
 <p> <strong> Question 18 </strong> </p>
 
 <p> <strong> Question 19 </strong> </p>
 
+<script>
+    console.log("I am interested in Food Design!");
+</script>
+
 <p> <strong> Question 20 </strong> </p>
 
-</or>
+<button id="button">Click me!</button>
 
+
+<script>
+    var button = document.getElementById("button");
+
+    button.addEventListener("click", function() {
+        document.body.style.backgroundColor = "lightblue";
+    });
+</script>
+</p>
 </body>
 </html>
