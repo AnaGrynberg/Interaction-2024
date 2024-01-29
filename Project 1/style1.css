@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
+a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	text-decoration: underline;
+}
 .container {
     position: relative;
   }
