@@ -1,0 +1,59 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@100;500&family=Bricolage+Grotesque:opsz,wght@12..96,600&family=Shantell+Sans&display=swap');
+
+body {
+    background-color: rgba(227, 115, 255, 1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 120vh;
+    width: 52%;
+    padding: 200px 0 0 20px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Archivo', sans-serif;
+    font-size: 18px;
+    word-spacing: 0.1px;
+    line-height: 25px;
+}
+
+.container p {
+    margin-bottom: -10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(28, 124, 139);
+    font-weight: 500;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+a:hover {
+    color: rgba(94, 234, 100, 1);
+    font-size: 120%;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.and{
+    color:blueviolet;
+    
+}
+
+.and:hover {
+    color:brown;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.end {
+    color:rgb(241, 166, 108);
+}
+.change-letter-and {
+    color: rgb(240, 210, 16);
+    font-family: 'Shantell Sans', cursive;
+    font-size: 120%;
+    transition: color 0.3s, font-size 0.3s;
+}
