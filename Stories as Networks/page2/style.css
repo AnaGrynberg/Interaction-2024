@@ -5,12 +5,12 @@ body {
     background-color: rgba(255, 115, 123, 1);
 }
 
-.container {
+.container { 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 10vh;
+    height: 120vh;
     width: 52%;
     padding: 45px 0 0 20px;
     margin-top: 50px;
@@ -24,7 +24,6 @@ body {
 .container p {
     margin-bottom: -10px;
 }
-
 
 .buttons-container {
     display: flex;
@@ -56,7 +55,9 @@ body {
     
 }
 
-
+.end-word{
+    color:rgb(198, 9, 188)
+}
 .button2 {
     background-color: transparent;
     border: 2px solid #a016ea;
@@ -85,6 +86,10 @@ body {
     font-family:'Shantell Sans', cursive;
 }
 
+.highlighted {
+    background-color: #19ea16;
+}
+
 .button4 {
     background-color: transparent;
     border: 2px solid #ea1616;
@@ -111,6 +116,10 @@ body {
     transition: background-color 0.3s ease;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
     font-family:'Shantell Sans', cursive;
+}
+
+.beginning-word{
+    text-decoration:dotted, blue;
 }
 
 .button6 {
