@@ -14,7 +14,7 @@ body {
     width: 52%;
     padding: 45px 0 0 20px;
     margin-top: 50px;
-    color: rgb(255, 255, 255);
+    color:rgba(244, 237, 227, 1);
     font-family: 'Archivo', sans-serif;
     font-size: 18px;
     word-spacing: 0.1px;
@@ -22,7 +22,7 @@ body {
 }
 
 .container p {
-    margin-bottom: -10px;
+    margin-bottom: -3px;
 }
 
 .buttons-container {
@@ -34,87 +34,87 @@ body {
     cursor:pointer;
     font-size: 10px;
     margin-right: 10px;
-    color: #fff;
-    padding: 5px 0px;
+    color:  rgba(244, 237, 227, 1);
+    padding: 5px;
     transition: background-color 0.3s ease;
 
 }
 
 .button1 {
     background-color: transparent;
-    border: 2px solid rgb(255, 5, 242);
+    border: rgba(255, 115, 123, 1);
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     margin-right: 10px;
-    color: #fff;
+    color:  rgba(244, 237, 227, 1);
     padding: 10px 30px;
     transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0.5px 0.5px 6px 6px rgba(0, 0, 0, 0.1); 
     font-family:'Shantell Sans', cursive;
     
 }
 
 .end-word{
-    color:rgb(198, 9, 188)
+    color:rgb(198, 9, 188);
 }
 .button2 {
     background-color: transparent;
-    border: 2px solid #a016ea;
+    border: rgba(255, 115, 123, 1);
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     margin-right: 10px;
-    color: #fff;
+    color:  rgba(244, 237, 227, 1);
     padding: 10px 20px;
     transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0.5px 0.5px 6px 6px rgba(0, 0, 0, 0.1); 
     font-family:'Shantell Sans', cursive;
 }
 
 .button3 {
     background-color: transparent;
-    border: 2px solid #19ea16;
+    border: rgba(255, 115, 123, 1);
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     margin-right: 10px;
-    color: #fff;
+    color:  rgba(244, 237, 227, 1);
     padding: 10px 20px;
     transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0.5px 0.5px 6px 6px rgba(0, 0, 0, 0.1); 
     font-family:'Shantell Sans', cursive;
 }
 
 .highlighted {
-    background-color: #19ea16;
+    background-color: #1fd61c;
 }
 
 .button4 {
     background-color: transparent;
-    border: 2px solid #ea1616;
+    border: rgba(255, 115, 123, 1);
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     margin-right: 10px;
-    color: #fff;
+    color:  rgba(244, 237, 227, 1);
     padding: 10px 20px;
     transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0.5px 0.5px 6px 6px rgba(0, 0, 0, 0.1); 
     font-family:'Shantell Sans', cursive;
 }
 
 .button5 {
     background-color: transparent;
-    border: 2px solid #16b2ea;
+    border: rgba(255, 115, 123, 1);
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     margin-right: 10px;
-    color: #fff;
+    color:  rgba(244, 237, 227, 1);
     padding: 10px 20px;
     transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0.5px 0.5px 6px 6px rgba(0, 0, 0, 0.1); 
     font-family:'Shantell Sans', cursive;
 }
 
@@ -124,15 +124,15 @@ body {
 
 .button6 {
     background-color: transparent;
-    border: 2px solid #ffd500;
+    border: rgba(255, 115, 123, 1);
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     margin-right: 10px;
-    color: #fff;
+    color:  rgba(244, 237, 227, 1);
     padding: 10px 20px;
     transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0.5px 0.5px 6px 6px rgba(0, 0, 0, 0.1); 
     font-family:'Shantell Sans', cursive;
 }
 
@@ -148,7 +148,7 @@ body {
 }
 
 .button3:hover {
-    background-color: rgb(14, 231, 79);
+    background-color: #1fd61c;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -163,7 +163,40 @@ body {
 }
 
 .button6:hover {
-    background-color: rgb(255, 226, 5);
+    background-color: rgb(249, 147, 30);
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
+#better-button {
+    background-color: transparent;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color:  rgba(244, 237, 227, 1);
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0.5px 0.5px 6px 6px rgba(0, 0, 0, 0.1); 
+    font-family:'Shantell Sans', cursive;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#better-button:hover {
+    background-color: rgba(160, 115, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+#better-button.clicked {
+    animation: scaleButton 0.5s ease forwards;
+}
+
+@keyframes scaleButton {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}

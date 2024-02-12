@@ -15,7 +15,7 @@ function animateButton1(button) {
 }
 
 function openNewPage() {
-    window.open('Index.html');
+    window.open('../Index.html');
 }
 
 let highlightOn = false;
@@ -35,7 +35,7 @@ function highlightWord() {
 }
 
 function openNewPage1() {
-    window.open('Index.html');
+    window.open('../page3/page3.html');
     let underlineOn = false;
 
 }  
@@ -84,3 +84,19 @@ function changeTextStyle() {
     }
     styleChanged = !styleChanged;
 }
+
+document.getElementById("better-button").addEventListener("mouseenter", function() {
+    this.textContent = "Maybe not...";
+  });
+  
+  document.getElementById("better-button").addEventListener("mouseleave", function() {
+    this.textContent = "I can go further!";
+  });
+  
+  document.getElementById("better-button").addEventListener("click", function() {
+    this.classList.add("clicked");
+    
+    setTimeout(() => {
+      window.location.href = "../page3/page3.html"; 
+    }, 500); 
+  });

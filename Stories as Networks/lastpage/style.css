@@ -46,7 +46,8 @@
 
   .arrow-link {
     display: inline;
-    right:auto;
+    position: fixed;
+    left:50px;
     font-size: 100px;
     color:rgba(229, 210, 182, 1);
     text-decoration: none;
@@ -56,4 +57,19 @@
 
 .arrow-link:hover {
     color:  rgba(227, 115, 255, 1);
+}
+
+.arrow-link2 {
+  display: inline;
+  position: fixed;
+  right:50px;
+  font-size: 100px;
+  color:rgba(227, 115, 255, 1);
+  text-decoration: none;
+  transition: color 0.3s ease; 
+
+}
+
+.arrow-link2:hover {
+  color:rgba(229, 210, 182, 1);
 }
