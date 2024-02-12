@@ -35,11 +35,13 @@ h2 {
     margin: 20px;
 }
 
-
 a {
-    text-decoration: none; font-family: 'Italiana', sans-serif; color: white; font-size: 20px;
+    text-decoration: none;
+    font-family: 'Italiana', sans-serif;
+    color: white;
+    font-size: 20px;
 }
 
-.one{}
-.two{}
-.three{}
+a:hover {
+    color: black;
+}

@@ -15,5 +15,5 @@ document.addEventListener('DOMContentLoaded', function() {
    
     setTimeout(function() {
         arrowLink.style.display = 'inline';
-    }, 2500);
+    });
 });
