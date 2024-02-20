@@ -46,7 +46,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 10px;
+    margin-right: 20px;
     color:  rgba(244, 237, 227, 1);
     padding: 10px 30px;
     transition: background-color 0.3s ease;
@@ -62,9 +62,9 @@ body {
     background-color: transparent;
     border: rgba(255, 115, 123, 1);
     border-radius: 20px;
-    cursor: pointer;
+    cursor: progress;
     font-size: 16px;
-    margin-right: 10px;
+    margin-right: 20px;
     color:  rgba(244, 237, 227, 1);
     padding: 10px 20px;
     transition: background-color 0.3s ease;
@@ -78,7 +78,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 10px;
+    margin-right: 20px;
     color:  rgba(244, 237, 227, 1);
     padding: 10px 20px;
     transition: background-color 0.3s ease;
@@ -94,9 +94,9 @@ body {
     background-color: transparent;
     border: rgba(255, 115, 123, 1);
     border-radius: 20px;
-    cursor: pointer;
+    cursor: zoom-in;
     font-size: 16px;
-    margin-right: 10px;
+    margin-right: 20px;
     color:  rgba(244, 237, 227, 1);
     padding: 10px 20px;
     transition: background-color 0.3s ease;
@@ -110,7 +110,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 10px;
+    margin-right: 20px;
     color:  rgba(244, 237, 227, 1);
     padding: 10px 20px;
     transition: background-color 0.3s ease;
@@ -128,7 +128,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 10px;
+    margin-right: 20px;
     color:  rgba(244, 237, 227, 1);
     padding: 10px 20px;
     transition: background-color 0.3s ease;
@@ -145,6 +145,7 @@ body {
 .button2:hover {
     background-color: rgb(151, 5, 255);
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    font-style: italic;
 }
 
 .button3:hover {
@@ -155,6 +156,7 @@ body {
 .button4:hover {
     background-color: rgb(233, 7, 7);
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    font-style: italic;
 }
 
 .button5:hover {

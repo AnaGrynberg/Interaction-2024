@@ -43,6 +43,7 @@ a:hover {
     color: rgba(94, 234, 100, 1);
     font-size: 120%;
     font-family: 'Shantell Sans', cursive;
+    transition: color 0.5s;
 }
 
 .and{
@@ -54,6 +55,7 @@ a:hover {
     color:rgb(143, 214, 255);
     font-family: 'Shantell Sans', cursive;
     font-size: 120%;
+    transition: color 0.5s;
 }
 
 .end {
