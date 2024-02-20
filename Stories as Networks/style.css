@@ -28,7 +28,7 @@ body{
 }
 
 .arrow-link {
-    display: none;
+    display: inline;
     position: absolute;
     bottom: 270px;
     left:851.5px;
