@@ -1,10 +1,9 @@
 const cards = document.querySelectorAll('.card');
 const modal = document.getElementById('modal');
-const modalContent = document.getElementById('modal-content');
 const modalTitle = document.getElementById('modal-title');
 const modalDescription = document.getElementById('modal-description');
 const closeModal = document.getElementById('close');
-const addToFridgeButton = document.querySelector('.modal .buy-btn');
+const addToFridgeButton = document.getElementById('addToFridgeBtn'); // Correctly targeting the "Add to fridge" button
 
 cards.forEach(card => {
   const buyButton = card.querySelector('.buy-btn');
@@ -31,12 +30,12 @@ addToFridgeButton.addEventListener('click', () => {
   const imageElement = document.createElement('img');
   imageElement.src = `../Food/apple.png`; // Assuming your image paths follow this convention
 
-  // Append the image element to the Index page
-  const fridgeContainer = document.getElementById('fridge-container'); // Assuming you have a container in the Index page to hold the fridge items
-  fridgeContainer.appendChild(imageElement);
+  // Append the image element to the container where you want to hold the fridge items
+  const foregroundContainer = document.getElementById('foregroundContainer');
+  foregroundContainer.appendChild(imageElement);
 
   // Redirect to the home page
-  window.location.href = '../Index.html';
+  window.location.href = '/Index.html';
 });
 
 closeModal.addEventListener('click', () => {

@@ -2,15 +2,15 @@
 
 body{
     background-color:rgb(227, 237, 234);
+    margin: 0;
 }
 #backgroundContainer {
     position: fixed;
     z-index: -1;
+    
 }
 
 #backgroundImage {
-    margin-left: 0vw;
-    margin-top: 0vw;
     width: 100vw;
     height: 100vh;
 }
@@ -22,29 +22,29 @@ body{
 }
 
 #b1 {
-    left: 30vw;
+    left: 10vw;
     top: 45vw;
     cursor: grab;
     width: 10vw;
 }
 
 #b2 {
-    left: 38vw;
+    left: 39vw;
     top: 45vw;
     cursor: grab;
     width: 8vw;
 }
 
 #b3 {
-    left: 70vw;
-    top: 35vw;
+    left: 68.5vw;
+    top: 33vw;
     cursor: grab;
     width: 15vw;
 }
 
 #b4 {
-    left: 70vw;
-    top: 15vw;
+    left: 84vw;
+    top: 12vw;
     cursor: grab;
     width: 15vw;
 }
@@ -56,66 +56,66 @@ body{
 }
 
 #b6 {
-    left: 65vw;
-    top: 20vw;
+    left: 69vw;
+    top: 16vw;
     width: 15vw;   
 }
 
 #b7 {
-    left: 72vw;
-    top: 20vw;
+    left: 82vw;
+    top: 18vw;
     width: 15vw;
 }
 
 #b8 {
     left: 30vw;
-    top: 18vw;
+    top: 15vw;
     width: 20vw;
 }
 
 #b9 {
     left: 50vw;
-    top: 23vw;
+    top: 20.5vw;
     width: 10vw;
 }
 
 #b10 {
-    left: 15vw;
-    top: 45vw;
+    left: 25vw;
+    top: 42vw;
     cursor: grab;
     width: 20vw;
 }
 
 #b11 {
-    left: 37vw;
-    top: 27.5vw;
+    left: 36vw;
+    top: 26vw;
     cursor: grab;
     width: 18vw;
 }
 
 #b12 {
     left: 57vw;
-    top: 40vw;
+    top: 39vw;
     cursor: grab;
     width: 10vw;
 }
 
 #b13 {
-    left: 20vw;
-    top: 24vw;
+    left: 12vw;
+    top: 21.5vw;
     cursor: grab;
     width: 12vw;
 }
 
 #b14 {
-    left: 59vw;
-    top: 19vw;
+    left: 62vw;
+    top: 17vw;
     cursor: grab;
     width: 6vw;
 }
 
 #b15 {
-    left: 80vw;
+    left: 83vw;
     top: 45vw;
     cursor: grab;
     width: 6vw;
@@ -129,29 +129,29 @@ body{
 }
 
 #b17 {
-    left: 30vw;
-    top: 23vw;
+    left: 24vw;
+    top: 20vw;
     cursor: grab;
     width: 12vw;
 }
 
 #b18 {
-    left: 20vw;
-    top: 23vw;
+    left: 18vw;
+    top: 22vw;
     cursor: grab;
     width: 15vw;
 }
 
 #b19 {
-    left: 49vw;
-    top: 40vw;
+    left: 84vw;
+    top: 39vw;
     cursor: grab;
     width: 18vw;
 }
 
 #b20 {
-    left: 23vw;
-    top: 44vw;
+    left: 19vw;
+    top: 45vw;
     cursor: grab;
     width: 10vw;
 }
@@ -164,29 +164,29 @@ body{
 }
 
 #b22 {
-    left: 20vw;
-    top: 25vw;
+    left: 5vw;
+    top: 23vw;
     cursor: grab;
     width: 10vw;
 }
 
 #b23 {
     left: 55vw;
-    top: 17vw;
+    top: 15vw;
     cursor: grab;
     width: 10vw;
 }
 
 #b24 {
-    left: 25vw;
-    top: 47vw;
+    left: 3vw;
+    top: 45vw;
     cursor: grab;
     width: 10vw;
 }
 
 #b25 {
-    left: 52vw;
-    top: 26.5vw;
+    left: 1vw;
+    top: 25vw;
     cursor: grab;
     width: 8vw;
 }
@@ -226,7 +226,8 @@ body{
 }
 
 .nav-btn:hover {
-  filter: drop-shadow(0 0 0.75rem #000000);
+  filter: drop-shadow(0 0 0.75rem #F73615);
+  color:#F73615;
 }
 
 .home-btn {

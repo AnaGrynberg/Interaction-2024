@@ -73,9 +73,9 @@ body {
   }
   
   .buy-btn {
-    background-color: #1878B9;
+    background-color: #0122ff;
     color: white;
-    border: 10px, #1878B9;
+    border: 10px, #0122ff;
     padding: 8px 12px;
     font-size: 16px;
     cursor: pointer;
@@ -156,8 +156,8 @@ body {
   }
   
   .nav-btn:hover {
-    filter: drop-shadow(0 0 1rem #ffffff);
-    color: #1878B9;
+    filter: drop-shadow(0 0 1rem #030cff);
+    color: #0122ff;;
   }
   
   .home-btn {
