@@ -1,30 +1,236 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-size: 60px;
-    width: 100%;
-    color:black;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Ojuju:wght@200..800&display=swap');
+
 body{
-background-color: #77F763;
-font-family: 'Italiana', sans-serif;
+    background-color:rgb(227, 237, 234);
+}
+#backgroundContainer {
+    position: fixed;
+    z-index: -1;
 }
 
-@keyframes jump {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-20px);
-    }
-    60% {
-      transform: translateY(-10px);
-    }
-  }
+#backgroundImage {
+    margin-left: 0vw;
+    margin-top: 0vw;
+    width: 100vw;
+    height: 100vh;
+}
+
+#foregroundContainer {
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+}
+
+#b1 {
+    left: 30vw;
+    top: 45vw;
+    cursor: grab;
+    width: 10vw;
+}
+
+#b2 {
+    left: 38vw;
+    top: 45vw;
+    cursor: grab;
+    width: 8vw;
+}
+
+#b3 {
+    left: 70vw;
+    top: 35vw;
+    cursor: grab;
+    width: 15vw;
+}
+
+#b4 {
+    left: 70vw;
+    top: 15vw;
+    cursor: grab;
+    width: 15vw;
+}
+
+#b5 {
+    left: 60vw;
+    top: 40vw;
+    width: 15vw;
+}
+
+#b6 {
+    left: 65vw;
+    top: 20vw;
+    width: 15vw;   
+}
+
+#b7 {
+    left: 72vw;
+    top: 20vw;
+    width: 15vw;
+}
+
+#b8 {
+    left: 30vw;
+    top: 18vw;
+    width: 20vw;
+}
+
+#b9 {
+    left: 50vw;
+    top: 23vw;
+    width: 10vw;
+}
+
+#b10 {
+    left: 15vw;
+    top: 45vw;
+    cursor: grab;
+    width: 20vw;
+}
+
+#b11 {
+    left: 37vw;
+    top: 27.5vw;
+    cursor: grab;
+    width: 18vw;
+}
+
+#b12 {
+    left: 57vw;
+    top: 40vw;
+    cursor: grab;
+    width: 10vw;
+}
+
+#b13 {
+    left: 20vw;
+    top: 24vw;
+    cursor: grab;
+    width: 12vw;
+}
+
+#b14 {
+    left: 59vw;
+    top: 19vw;
+    cursor: grab;
+    width: 6vw;
+}
+
+#b15 {
+    left: 80vw;
+    top: 45vw;
+    cursor: grab;
+    width: 6vw;
+}
+
+#b16 {
+    left: 68vw;
+    top: 17vw;
+    cursor: grab;
+    width: 12vw;
+}
+
+#b17 {
+    left: 30vw;
+    top: 23vw;
+    cursor: grab;
+    width: 12vw;
+}
+
+#b18 {
+    left: 20vw;
+    top: 23vw;
+    cursor: grab;
+    width: 15vw;
+}
+
+#b19 {
+    left: 49vw;
+    top: 40vw;
+    cursor: grab;
+    width: 18vw;
+}
+
+#b20 {
+    left: 23vw;
+    top: 44vw;
+    cursor: grab;
+    width: 10vw;
+}
+
+#b21 {
+    left: 34vw;
+    top: 48vw;
+    cursor: grab;
+    width: 8vw;
+}
+
+#b22 {
+    left: 20vw;
+    top: 25vw;
+    cursor: grab;
+    width: 10vw;
+}
+
+#b23 {
+    left: 55vw;
+    top: 17vw;
+    cursor: grab;
+    width: 10vw;
+}
+
+#b24 {
+    left: 25vw;
+    top: 47vw;
+    cursor: grab;
+    width: 10vw;
+}
+
+#b25 {
+    left: 52vw;
+    top: 26.5vw;
+    cursor: grab;
+    width: 8vw;
+}
+
+
+.dragImage {
+    position: fixed;
+    width: 10vw;
+    height: auto;
+    cursor: grab;
+}
+
+.navbar {
+ 
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
-  .container {
-    animation: jump 1s infinite;
-  }
+}
+
+.nav-btn {
+  color: #0122ff;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 30px;
+  margin: 0 10px;
+ 
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  filter: drop-shadow(0 0 0.75rem #000000);
+}
+
+.home-btn {
+  margin: 0;}
+
+
+
