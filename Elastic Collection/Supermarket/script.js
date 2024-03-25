@@ -29,3 +29,8 @@ window.addEventListener('click', (event) => {
     modal.style.display = 'none';
   }
 });
+
+addToFridgeButton.addEventListener('click', () => {
+  window.location.href = 'supermarket.html';
+
+});
