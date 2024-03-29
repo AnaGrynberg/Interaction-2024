@@ -18,7 +18,13 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    margin-top: 80px;
+    margin-top: 70px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-top: 130px;
+  }
 }
   
   .card {
@@ -76,6 +82,7 @@ body {
     background-color: #FFF0E0;
     transition: transform 0.5s ease;
     cursor: context-menu;
+    margin-top: 2vw;
     }
   }
   
@@ -182,9 +189,11 @@ body {
   
   @media (max-width: 600px) {
     .nav-btn {
-      font-size: 5vw; 
-      padding: 5vw;
+      font-size: 4vw; 
+      padding: 3vw 3vw;
       margin: 0 2vw;
+      text-align: center;
+      text-wrap: balance;
     }
   }
   
