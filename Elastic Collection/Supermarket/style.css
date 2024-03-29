@@ -4,6 +4,11 @@ body {
     background-color: red;
 }
 
+.title {
+  font-weight: 700;
+  font-style: normal;
+  color:#0122ff;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -56,8 +61,22 @@ body {
     background-color: #FFF0E0;
     transform: translateY(100%);
     transition: transform 0.5s ease;
+    cursor: context-menu;
     
-    
+  }
+
+  @media (max-width: 600px) {
+    .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    transform: translateY(0%);
+    background-color: #FFF0E0;
+    transition: transform 0.5s ease;
+    cursor: context-menu;
+    }
   }
   
   .card:hover .content {
@@ -76,6 +95,8 @@ body {
     background-color: #0122ff;
     color: white;
     border: 10px, #0122ff;
+    top:20px;
+    margin-top: 10px;
     padding: 8px 12px;
     font-size: 16px;
     cursor: pointer;
@@ -89,7 +110,7 @@ body {
   .buy-btn:hover {
     background-color: #F73615;
   }
-  
+
   .modal {
     display: none;
     position: fixed;
@@ -104,7 +125,7 @@ body {
   
   .modal-content {
     background-color: #FFF0E0;
-    margin: 15% auto;
+    margin: 5% auto;
     padding: 25px;
     border: 5px solid #F73615;
     border-radius: 50px 50px 50px 50px;
@@ -147,17 +168,24 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 30px;
+    font-size: 2.1vw; 
     text-decoration: none;
-    padding: 30px;
-    margin: 0 10px;
-   
+    padding: 2vw; 
+    margin: 0 1vw;
     transition: background-color 0.3s;
   }
   
   .nav-btn:hover {
     filter: drop-shadow(0 0 1rem #030cff);
-    color: #0122ff;;
+    color: #0122ff;
+  }
+  
+  @media (max-width: 600px) {
+    .nav-btn {
+      font-size: 5vw; 
+      padding: 5vw;
+      margin: 0 2vw;
+    }
   }
   
   .home-btn {
@@ -338,4 +366,5 @@ body {
       margin-left: 20px;
       margin-top: 15px;
     }
+    
     

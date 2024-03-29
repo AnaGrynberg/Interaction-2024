@@ -34,7 +34,7 @@
     },
     {
       "": 1,
-      "YOU EAT WHAT YOU ARE": "Chicken breast",
+      "YOU EAT WHAT YOU ARE": "Chicken",
       "__1": "Every week",
       "__2": "3/4 Days",
       "__3": "Mustard",
@@ -78,7 +78,7 @@
     },
     {
       "": 5,
-      "YOU EAT WHAT YOU ARE": "Cauliflower rice",
+      "YOU EAT WHAT YOU ARE": "Cauliflower Rice",
       "__1": "Every other week",
       "__2": "2 weeks",
       "__3": "Tomato sauce",
@@ -111,7 +111,7 @@
     },
     {
       "": 8,
-      "YOU EAT WHAT YOU ARE": "Tangerin",
+      "YOU EAT WHAT YOU ARE": "Tangerine",
       "__1": "Every week",
       "__2": "1/2 weeks",
       "__3": "Salad",
@@ -155,7 +155,7 @@
     },
     {
       "": 12,
-      "YOU EAT WHAT YOU ARE": "Tomato sauce",
+      "YOU EAT WHAT YOU ARE": "Tomato Sauce",
       "__1": "Almost every week",
       "__2": "5 days if you open it",
       "__3": "Carrot",
@@ -177,7 +177,7 @@
     },
     {
       "": 14,
-      "YOU EAT WHAT YOU ARE": "Sweet potato",
+      "YOU EAT WHAT YOU ARE": "Sweet Potato",
       "__1": "Almost every week",
       "__2": "2 weeks",
       "__3": "Apple",
@@ -188,7 +188,7 @@
     },
     {
       "": 15,
-      "YOU EAT WHAT YOU ARE": "Onions",
+      "YOU EAT WHAT YOU ARE": "Onion",
       "__1": "Every week",
       "__2": "3 weeks",
       "__3": "Squash",
@@ -221,7 +221,7 @@
     },
     {
       "": 18,
-      "YOU EAT WHAT YOU ARE": "Eggs",
+      "YOU EAT WHAT YOU ARE": "Egg",
       "__1": "Every week",
       "__2": "3 weeks",
       "__3": "Ricota",
@@ -232,7 +232,7 @@
     },
     {
       "": 19,
-      "YOU EAT WHAT YOU ARE": "Ricota",
+      "YOU EAT WHAT YOU ARE": "Cottage Cheese",
       "__1": "Almost every week",
       "__2": "2/3 weeks",
       "__3": "Tomato",
@@ -243,7 +243,7 @@
     },
     {
       "": 20,
-      "YOU EAT WHAT YOU ARE": "Shitake",
+      "YOU EAT WHAT YOU ARE": "Shitake Mushroom",
       "__1": "Almost every week",
       "__2": "1 weeks",
       "__3": "Salmon",
@@ -254,7 +254,7 @@
     },
     {
       "": 21,
-      "YOU EAT WHAT YOU ARE": "Cucumber",
+      "YOU EAT WHAT YOU ARE": "Cucumbers",
       "__1": "Every other week",
       "__2": "2 weeks",
       "__3": "Salad",
@@ -276,7 +276,7 @@
     },
     {
       "": 23,
-      "YOU EAT WHAT YOU ARE": "Goat cheese",
+      "YOU EAT WHAT YOU ARE": "Goat Cheese",
       "__1": "Once in the month",
       "__2": "1 month",
       "__3": "Apple",
@@ -298,7 +298,7 @@
     },
     {
       "": 25,
-      "YOU EAT WHAT YOU ARE": "Brussels sprouts",
+      "YOU EAT WHAT YOU ARE": "Brussels Sprouts",
       "__1": "Every other week",
       "__2": "1/2 weeks",
       "__3": "Chicken breast",

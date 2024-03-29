@@ -27,6 +27,7 @@ body {
   transition: translate 1s;
   translate: calc(min(var(--c), 1) * 50%) 0%;
   rotate: 1 0 0 30deg;
+  cursor: e-resize;
 }
 
 .page {
