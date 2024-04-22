@@ -1,121 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
-html,
 body {
-  width: 100%;
-  height: 100%;
-  font-family: "Rowdies", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  background-color: #f3f9f1; 
-  color: #5a5a5a; 
-  margin: 0;
-}
+  background-image: url('2.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; }
 
 .container {
-  min-height: 100vh;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-h1 {
-  color: #456830; 
-  margin-bottom: 1rem;
-}
-
-
-.slider button {
-  font-size: 1rem;
-  padding: 0.5rem 1.5rem;
-  margin: 0.55rem;
-  border: 2px solid #c8e6c9;
-  border-radius: 5px; 
-  background-color: #e0f2f1; 
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
-}
-
-.slider button:hover {
-  background-color: #aed581;
-  transform: translateY(-2px); 
-}
-
-.months-slider {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  border-bottom: 2px solid #a2d9ce; 
-}
-
-
-.days-slider {
-  display: flex;
-  flex-direction: column;
-  overflow-y: auto;
-  max-height: 500px;
-  margin-right: 2rem;
-  padding: 0.5rem;
-}
-
-.main-content {
-  display: flex;
-  width: 100%;
-  
-}
-
-
-#calendar-container {
-  overflow: auto;
-}
-
-#calendar {
-  border-collapse: collapse;
-  width: 100%; 
-  background-color: #a2d9ce;
-}
-
-#calendar th,
-#calendar td {
-  border: 5px solid  #f3f9f1; 
+  max-width: 1200px;
+  margin: 50px auto;
   text-align: center;
-  padding: 1.9rem;
-  min-width: 6rem; 
-  height: 5rem; 
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+
+button {
+  margin: 5px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  background-color: #125f14; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+button:hover {
+  background-color: #f41313; /* Darker green */
+  transform: translateY(-2px);
+}
+
+
+/* Calendar table styling */
+#calendar {
+  border-collapse: separate; 
+  border-spacing: 30px; 
+  margin-left: -90px;
+  width: 100%;
+  margin-top: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 #calendar td {
-  cursor: pointer; 
+  position: relative;
+  padding: 25px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 15px; 
+  background-color: #7f5643; 
+  color: white; 
+  font-weight: bold;
+}
+
+#calendar td::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -10px; /* Adjusted to go outside the cell */
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+  background-image: url('texture.jpg'); /* Basket texture */
+  background-size: cover;
+  border-radius: 20px; /* Larger radius for the basket outline */
+  z-index: -1; 
+}
+
+#calendar td.highlighted {
+  background-color: #30c52b; /* Highlight color */
+}
+
+#calendar td.highlighted::before {
+  border-color: #ffab00; 
 }
 
 #calendar td:hover {
-  background-color: #ffecb3; 
+  background-color: #704214; 
 }
 
-
-@media (max-width: 768px) {
-  .container {
-    padding: 1rem;
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  .slider {
+      display: block;
   }
 
-  .main-content {
-    flex-direction: column;
-  }
-
-  .days-slider {
-    max-height: none;
-    overflow-x: auto;
-    flex-direction: row;
-    margin-right: 0;
-    margin-bottom: 1rem;
+  button {
+      width: 100%;
+      margin: 5px 0;
   }
 }
